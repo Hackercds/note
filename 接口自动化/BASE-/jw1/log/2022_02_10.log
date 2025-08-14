@@ -1,0 +1,326 @@
+2022-02-10 09:36:05,404 - logutil.py[line:51] - INFO: jwtest11
+2022-02-10 09:36:05,404 - logutil.py[line:52] - INFO: jwtest22
+2022-02-10 09:36:05,404 - logutil.py[line:53] - INFO: jwtest33
+2022-02-10 09:45:58,231 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 09:45:58,231 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 09:45:58,231 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': '123'},类型为<class 'dict'>
+2022-02-10 09:45:58,231 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 09:45:58,231 - requestsutil.py[line:22] - INFO: 请求的cookies为None,类型为<class 'NoneType'>
+2022-02-10 09:46:38,559 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 09:46:38,560 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 09:46:38,560 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': '123'},类型为<class 'dict'>
+2022-02-10 09:46:38,560 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 09:46:38,560 - requestsutil.py[line:22] - INFO: 请求的cookies为None,类型为<class 'NoneType'>
+2022-02-10 10:05:28,556 - test_run.py[line:32] - INFO: ***** 开始执行测试用例，开始时间为：2022-02-10 10:05:28 *****
+2022-02-10 10:05:28,581 - test_run.py[line:38] - INFO: ***** 执行用例完成，完成时间为：2022-02-10 10:05:28 *****
+2022-02-10 10:07:14,592 - test_run.py[line:32] - INFO: ***** 开始执行测试用例，开始时间为：2022-02-10 10:07:14 *****
+2022-02-10 10:07:14,594 - test_run.py[line:62] - INFO: 正在执行密码错误用例
+2022-02-10 10:07:14,594 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 10:07:14,594 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 10:07:14,594 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': 'xxxxx'},类型为<class 'dict'>
+2022-02-10 10:07:14,594 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 10:07:14,594 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 10:07:14,616 - test_run.py[line:66] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 02:07:14 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}, 'body': {'success': False, 'code': 204, 'msg': '密码错误', 'id': 0, 'lastName': None, 'workCode': None, 'departmentId': 0, 'jobTitle': None, 'isEnabled': False, 'level': 0, 'roleId': 0, 'loginId': None, 'departmentName': None}, 'cookies': {}}
+2022-02-10 10:07:14,616 - test_run.py[line:38] - INFO: ***** 执行用例完成，完成时间为：2022-02-10 10:07:14 *****
+2022-02-10 10:08:57,433 - test_run.py[line:32] - INFO: ***** 开始执行测试用例，开始时间为：2022-02-10 10:08:57 *****
+2022-02-10 10:08:57,434 - test_run.py[line:62] - INFO: 正在执行密码错误用例
+2022-02-10 10:08:57,435 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 10:08:57,435 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 10:08:57,435 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': 'xxxxx'},类型为<class 'dict'>
+2022-02-10 10:08:57,435 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 10:08:57,435 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 10:08:57,452 - test_run.py[line:66] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 02:08:57 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}, 'body': {'success': False, 'code': 204, 'msg': '密码错误', 'id': 0, 'lastName': None, 'workCode': None, 'departmentId': 0, 'jobTitle': None, 'isEnabled': False, 'level': 0, 'roleId': 0, 'loginId': None, 'departmentName': None}, 'cookies': {}}
+2022-02-10 10:08:57,453 - test_run.py[line:38] - INFO: ***** 执行用例完成，完成时间为：2022-02-10 10:08:57 *****
+2022-02-10 10:11:44,404 - test_run.py[line:32] - INFO: ***** 开始执行测试用例，开始时间为：2022-02-10 10:11:44 *****
+2022-02-10 10:11:44,406 - test_run.py[line:62] - INFO: 正在执行密码错误用例
+2022-02-10 10:11:44,406 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 10:11:44,406 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 10:11:44,406 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': 'xxxxx'},类型为<class 'dict'>
+2022-02-10 10:11:44,406 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 10:11:44,406 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 10:11:44,423 - test_run.py[line:66] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 02:11:44 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}, 'body': {'success': False, 'code': 204, 'msg': '密码错误', 'id': 0, 'lastName': None, 'workCode': None, 'departmentId': 0, 'jobTitle': None, 'isEnabled': False, 'level': 0, 'roleId': 0, 'loginId': None, 'departmentName': None}, 'cookies': {}}
+2022-02-10 10:11:44,426 - test_run.py[line:62] - INFO: 正在执行没有密码参数用例
+2022-02-10 10:11:44,426 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 10:11:44,426 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 10:11:44,426 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin'},类型为<class 'dict'>
+2022-02-10 10:11:44,426 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 10:11:44,426 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 10:11:44,442 - test_run.py[line:66] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 02:11:44 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}, 'body': {'success': False, 'code': 204, 'msg': '密码错误', 'id': 0, 'lastName': None, 'workCode': None, 'departmentId': 0, 'jobTitle': None, 'isEnabled': False, 'level': 0, 'roleId': 0, 'loginId': None, 'departmentName': None}, 'cookies': {}}
+2022-02-10 10:11:44,444 - test_run.py[line:62] - INFO: 正在执行用户名错误用例
+2022-02-10 10:11:44,444 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 10:11:44,444 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 10:11:44,444 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin22', 'password': '123'},类型为<class 'dict'>
+2022-02-10 10:11:44,444 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 10:11:44,444 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 10:11:44,592 - test_run.py[line:66] - INFO: 用例执行成功，请求的结果为{'code': 500, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 02:11:44 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}, 'body': {'errorCode': 202, 'message': '没有找到用户'}, 'cookies': {}}
+2022-02-10 10:11:44,595 - test_run.py[line:62] - INFO: 正在执行用户名错误用例
+2022-02-10 10:11:44,595 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 10:11:44,595 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 10:11:44,595 - requestsutil.py[line:18] - INFO: 请求的data为{'password': '123'},类型为<class 'dict'>
+2022-02-10 10:11:44,595 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 10:11:44,595 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 10:11:44,634 - test_run.py[line:66] - INFO: 用例执行成功，请求的结果为{'code': 500, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 02:11:44 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}, 'body': {'errorCode': 202, 'message': '没有找到用户'}, 'cookies': {}}
+2022-02-10 10:11:44,635 - test_run.py[line:38] - INFO: ***** 执行用例完成，完成时间为：2022-02-10 10:11:44 *****
+2022-02-10 11:01:24,714 - test_run.py[line:33] - INFO: ***** 开始执行测试用例，开始时间为：2022-02-10 11:01:24 *****
+2022-02-10 11:01:24,716 - test_run.py[line:63] - INFO: 正在执行密码错误用例
+2022-02-10 11:01:24,716 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 11:01:24,716 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 11:01:24,716 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': 'xxxxx'},类型为<class 'dict'>
+2022-02-10 11:01:24,716 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 11:01:24,716 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 11:01:24,738 - test_run.py[line:67] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 03:01:24 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}, 'body': {'success': False, 'code': 204, 'msg': '密码错误', 'id': 0, 'lastName': None, 'workCode': None, 'departmentId': 0, 'jobTitle': None, 'isEnabled': False, 'level': 0, 'roleId': 0, 'loginId': None, 'departmentName': None}, 'cookies': {}}
+2022-02-10 11:01:24,741 - test_run.py[line:63] - INFO: 正在执行没有密码参数用例
+2022-02-10 11:01:24,741 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 11:01:24,741 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 11:01:24,741 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin'},类型为<class 'dict'>
+2022-02-10 11:01:24,741 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 11:01:24,741 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 11:01:24,759 - test_run.py[line:67] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 03:01:24 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}, 'body': {'success': False, 'code': 204, 'msg': '密码错误', 'id': 0, 'lastName': None, 'workCode': None, 'departmentId': 0, 'jobTitle': None, 'isEnabled': False, 'level': 0, 'roleId': 0, 'loginId': None, 'departmentName': None}, 'cookies': {}}
+2022-02-10 11:01:24,760 - test_run.py[line:63] - INFO: 正在执行用户名错误用例
+2022-02-10 11:01:24,761 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 11:01:24,761 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 11:01:24,761 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin22', 'password': '123'},类型为<class 'dict'>
+2022-02-10 11:01:24,761 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 11:01:24,761 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 11:01:24,785 - test_run.py[line:67] - INFO: 用例执行成功，请求的结果为{'code': 500, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 03:01:24 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}, 'body': {'errorCode': 202, 'message': '没有找到用户'}, 'cookies': {}}
+2022-02-10 11:01:24,787 - test_run.py[line:63] - INFO: 正在执行用户名错误用例
+2022-02-10 11:01:24,787 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 11:01:24,787 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 11:01:24,787 - requestsutil.py[line:18] - INFO: 请求的data为{'password': '123'},类型为<class 'dict'>
+2022-02-10 11:01:24,788 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 11:01:24,788 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 11:01:24,821 - test_run.py[line:67] - INFO: 用例执行成功，请求的结果为{'code': 500, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 03:01:24 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}, 'body': {'errorCode': 202, 'message': '没有找到用户'}, 'cookies': {}}
+2022-02-10 11:01:24,822 - test_run.py[line:39] - INFO: ***** 执行用例完成，完成时间为：2022-02-10 11:01:24 *****
+2022-02-10 11:01:53,227 - test_run.py[line:33] - INFO: ***** 开始执行测试用例，开始时间为：2022-02-10 11:01:53 *****
+2022-02-10 11:01:53,228 - test_run.py[line:63] - INFO: 正在执行用户名密码正确用例
+2022-02-10 11:01:53,228 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 11:01:53,228 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 11:01:53,228 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': '123'},类型为<class 'dict'>
+2022-02-10 11:01:53,228 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 11:01:53,228 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 11:01:53,245 - test_run.py[line:67] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 03:01:53 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Authorization': 'eyJhY2NvdW50IjoiYWRtaW4iLCJ0b2tlbiI6IjliMmYyNWEzODkyZDY0OTlhMWYwZjMxMWJmZTgwMjhiIn0='}, 'body': {'success': True, 'code': 200, 'msg': None, 'id': 1, 'lastName': '超管', 'workCode': 'BWF-Admin', 'departmentId': 0, 'jobTitle': '超管', 'isEnabled': True, 'level': 3, 'roleId': 1, 'loginId': 'admin', 'departmentName': None}, 'cookies': {}}
+2022-02-10 11:01:53,246 - test_run.py[line:39] - INFO: ***** 执行用例完成，完成时间为：2022-02-10 11:01:53 *****
+2022-02-10 11:02:35,166 - test_run.py[line:33] - INFO: ***** 开始执行测试用例，开始时间为：2022-02-10 11:02:35 *****
+2022-02-10 11:02:35,167 - test_run.py[line:63] - INFO: 正在执行用户名密码正确用例
+2022-02-10 11:02:35,167 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 11:02:35,168 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 11:02:35,168 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': '123'},类型为<class 'dict'>
+2022-02-10 11:02:35,168 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 11:02:35,168 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 11:02:35,185 - test_run.py[line:67] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 03:02:35 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Authorization': 'eyJhY2NvdW50IjoiYWRtaW4iLCJ0b2tlbiI6IjliMmYyNWEzODkyZDY0OTlhMWYwZjMxMWJmZTgwMjhiIn0='}, 'body': {'success': True, 'code': 200, 'msg': None, 'id': 1, 'lastName': '超管', 'workCode': 'BWF-Admin', 'departmentId': 0, 'jobTitle': '超管', 'isEnabled': True, 'level': 3, 'roleId': 1, 'loginId': 'admin', 'departmentName': None}, 'cookies': {}}
+2022-02-10 11:02:35,186 - test_run.py[line:39] - INFO: ***** 执行用例完成，完成时间为：2022-02-10 11:02:35 *****
+2022-02-10 11:05:42,611 - test_run.py[line:33] - INFO: ***** 开始执行测试用例，开始时间为：2022-02-10 11:05:42 *****
+2022-02-10 11:05:42,612 - test_run.py[line:63] - INFO: 正在执行用户名密码正确用例
+2022-02-10 11:05:42,613 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 11:05:42,613 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 11:05:42,613 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': '123'},类型为<class 'dict'>
+2022-02-10 11:05:42,613 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 11:05:42,613 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 11:05:42,660 - test_run.py[line:67] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 03:05:42 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Authorization': 'eyJhY2NvdW50IjoiYWRtaW4iLCJ0b2tlbiI6IjliMmYyNWEzODkyZDY0OTlhMWYwZjMxMWJmZTgwMjhiIn0='}, 'body': {'success': True, 'code': 200, 'msg': None, 'id': 1, 'lastName': '超管', 'workCode': 'BWF-Admin', 'departmentId': 0, 'jobTitle': '超管', 'isEnabled': True, 'level': 3, 'roleId': 1, 'loginId': 'admin', 'departmentName': None}, 'cookies': {}}
+2022-02-10 11:05:42,662 - test_run.py[line:39] - INFO: ***** 执行用例完成，完成时间为：2022-02-10 11:05:42 *****
+2022-02-10 11:06:08,407 - test_run.py[line:33] - INFO: ***** 开始执行测试用例，开始时间为：2022-02-10 11:06:08 *****
+2022-02-10 11:06:08,409 - test_run.py[line:63] - INFO: 正在执行用户名密码正确用例
+2022-02-10 11:06:08,409 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 11:06:08,409 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 11:06:08,409 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': '123'},类型为<class 'dict'>
+2022-02-10 11:06:08,409 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 11:06:08,409 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 11:06:08,427 - test_run.py[line:67] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 03:06:08 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Authorization': 'eyJhY2NvdW50IjoiYWRtaW4iLCJ0b2tlbiI6IjliMmYyNWEzODkyZDY0OTlhMWYwZjMxMWJmZTgwMjhiIn0='}, 'body': {'success': True, 'code': 200, 'msg': None, 'id': 1, 'lastName': '超管', 'workCode': 'BWF-Admin', 'departmentId': 0, 'jobTitle': '超管', 'isEnabled': True, 'level': 3, 'roleId': 1, 'loginId': 'admin', 'departmentName': None}, 'cookies': {}}
+2022-02-10 11:06:08,427 - test_run.py[line:39] - INFO: ***** 执行用例完成，完成时间为：2022-02-10 11:06:08 *****
+2022-02-10 11:52:40,451 - test_run.py[line:35] - INFO: ***** 开始执行测试用例，开始时间为：2022-02-10 11:52:40 *****
+2022-02-10 11:52:40,452 - test_run.py[line:68] - INFO: 正在执行用户名密码正确用例
+2022-02-10 11:52:40,453 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 11:52:40,453 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 11:52:40,453 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': '123'},类型为<class 'dict'>
+2022-02-10 11:52:40,453 - requestsutil.py[line:20] - INFO: 请求的headers为None,类型为<class 'NoneType'>
+2022-02-10 11:52:40,453 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 11:52:40,453 - test_run.py[line:76] - INFO: 用例执行失败，请查看日志找原因。
+2022-02-10 11:52:40,482 - test_run.py[line:68] - INFO: 正在执行查询(有授权码)用例
+2022-02-10 11:52:40,482 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User?IsEnabled=true&page=1,类型为<class 'str'>
+2022-02-10 11:52:40,483 - requestsutil.py[line:16] - INFO: 请求的method为get,类型为<class 'str'>
+2022-02-10 11:52:40,483 - requestsutil.py[line:18] - INFO: 请求的data为{},类型为<class 'dict'>
+2022-02-10 11:52:40,483 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': '${jwtoken}'},类型为<class 'dict'>
+2022-02-10 11:52:40,483 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 11:52:40,562 - test_run.py[line:72] - INFO: 用例执行成功，请求的结果为{'code': 500, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 03:52:40 GMT', 'Content-Length': '0', 'Connection': 'keep-alive'}, 'body': {'hi': '无数据'}, 'cookies': {}}
+2022-02-10 11:52:40,563 - test_run.py[line:41] - INFO: ***** 执行用例完成，完成时间为：2022-02-10 11:52:40 *****
+2022-02-10 11:53:51,588 - test_run.py[line:35] - INFO: ***** 开始执行测试用例，开始时间为：2022-02-10 11:53:51 *****
+2022-02-10 11:53:51,590 - test_run.py[line:68] - INFO: 正在执行用户名密码正确用例
+2022-02-10 11:53:51,590 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 11:53:51,591 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 11:53:51,591 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': '123'},类型为<class 'dict'>
+2022-02-10 11:53:51,591 - requestsutil.py[line:20] - INFO: 请求的headers为None,类型为<class 'NoneType'>
+2022-02-10 11:53:51,591 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 11:53:51,591 - test_run.py[line:76] - INFO: 用例执行失败，请查看日志找原因。
+2022-02-10 11:53:51,619 - test_run.py[line:41] - INFO: ***** 执行用例完成，完成时间为：2022-02-10 11:53:51 *****
+2022-02-10 12:02:48,258 - test_run.py[line:35] - INFO: ***** 开始执行测试用例，开始时间为：2022-02-10 12:02:48 *****
+2022-02-10 12:02:48,259 - test_run.py[line:68] - INFO: 正在执行用户名密码正确用例
+2022-02-10 12:02:48,259 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 12:02:48,259 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 12:02:48,260 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': '123'},类型为<class 'dict'>
+2022-02-10 12:02:48,260 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 12:02:48,260 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 12:02:48,280 - test_run.py[line:72] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 04:02:48 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Authorization': 'eyJhY2NvdW50IjoiYWRtaW4iLCJ0b2tlbiI6IjliMmYyNWEzODkyZDY0OTlhMWYwZjMxMWJmZTgwMjhiIn0='}, 'body': {'success': True, 'code': 200, 'msg': None, 'id': 1, 'lastName': '超管', 'workCode': 'BWF-Admin', 'departmentId': 0, 'jobTitle': '超管', 'isEnabled': True, 'level': 3, 'roleId': 1, 'loginId': 'admin', 'departmentName': None}, 'cookies': {}}
+2022-02-10 12:02:48,281 - test_run.py[line:41] - INFO: ***** 执行用例完成，完成时间为：2022-02-10 12:02:48 *****
+2022-02-10 12:03:24,821 - test_run.py[line:35] - INFO: ***** 开始执行测试用例，开始时间为：2022-02-10 12:03:24 *****
+2022-02-10 12:03:24,822 - test_run.py[line:68] - INFO: 正在执行用户名密码正确用例
+2022-02-10 12:03:24,822 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 12:03:24,822 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 12:03:24,822 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': '123'},类型为<class 'dict'>
+2022-02-10 12:03:24,822 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 12:03:24,822 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 12:03:24,841 - test_run.py[line:72] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 04:03:24 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Authorization': 'eyJhY2NvdW50IjoiYWRtaW4iLCJ0b2tlbiI6IjliMmYyNWEzODkyZDY0OTlhMWYwZjMxMWJmZTgwMjhiIn0='}, 'body': {'success': True, 'code': 200, 'msg': None, 'id': 1, 'lastName': '超管', 'workCode': 'BWF-Admin', 'departmentId': 0, 'jobTitle': '超管', 'isEnabled': True, 'level': 3, 'roleId': 1, 'loginId': 'admin', 'departmentName': None}, 'cookies': {}}
+2022-02-10 12:03:24,842 - test_run.py[line:41] - INFO: ***** 执行用例完成，完成时间为：2022-02-10 12:03:24 *****
+2022-02-10 12:03:39,662 - test_run.py[line:35] - INFO: ***** 开始执行测试用例，开始时间为：2022-02-10 12:03:39 *****
+2022-02-10 12:03:39,663 - test_run.py[line:68] - INFO: 正在执行用户名密码正确用例
+2022-02-10 12:03:39,663 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 12:03:39,663 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 12:03:39,663 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': '123'},类型为<class 'dict'>
+2022-02-10 12:03:39,663 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 12:03:39,663 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 12:03:39,680 - test_run.py[line:72] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 04:03:39 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Authorization': 'eyJhY2NvdW50IjoiYWRtaW4iLCJ0b2tlbiI6IjliMmYyNWEzODkyZDY0OTlhMWYwZjMxMWJmZTgwMjhiIn0='}, 'body': {'success': True, 'code': 200, 'msg': None, 'id': 1, 'lastName': '超管', 'workCode': 'BWF-Admin', 'departmentId': 0, 'jobTitle': '超管', 'isEnabled': True, 'level': 3, 'roleId': 1, 'loginId': 'admin', 'departmentName': None}, 'cookies': {}}
+2022-02-10 12:03:39,683 - test_run.py[line:68] - INFO: 正在执行查询(有授权码)用例
+2022-02-10 12:03:39,683 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User?IsEnabled=true&page=1,类型为<class 'str'>
+2022-02-10 12:03:39,683 - requestsutil.py[line:16] - INFO: 请求的method为get,类型为<class 'str'>
+2022-02-10 12:03:39,683 - requestsutil.py[line:18] - INFO: 请求的data为{},类型为<class 'dict'>
+2022-02-10 12:03:39,683 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': '${jwtoken}'},类型为<class 'dict'>
+2022-02-10 12:03:39,683 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 12:03:39,706 - test_run.py[line:72] - INFO: 用例执行成功，请求的结果为{'code': 500, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 04:03:39 GMT', 'Content-Length': '0', 'Connection': 'keep-alive'}, 'body': {'hi': '无数据'}, 'cookies': {}}
+2022-02-10 12:03:39,706 - test_run.py[line:41] - INFO: ***** 执行用例完成，完成时间为：2022-02-10 12:03:39 *****
+2022-02-10 12:10:17,879 - test_run.py[line:35] - INFO: ***** 开始执行测试用例，开始时间为：2022-02-10 12:10:17 *****
+2022-02-10 12:10:17,880 - test_run.py[line:68] - INFO: 正在执行用户名密码正确用例
+2022-02-10 12:10:17,880 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 12:10:17,880 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 12:10:17,880 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': '123'},类型为<class 'dict'>
+2022-02-10 12:10:17,880 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 12:10:17,880 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 12:10:17,904 - test_run.py[line:72] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 04:10:17 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Authorization': 'eyJhY2NvdW50IjoiYWRtaW4iLCJ0b2tlbiI6IjliMmYyNWEzODkyZDY0OTlhMWYwZjMxMWJmZTgwMjhiIn0='}, 'body': {'success': True, 'code': 200, 'msg': None, 'id': 1, 'lastName': '超管', 'workCode': 'BWF-Admin', 'departmentId': 0, 'jobTitle': '超管', 'isEnabled': True, 'level': 3, 'roleId': 1, 'loginId': 'admin', 'departmentName': None}, 'cookies': {}}
+2022-02-10 12:10:17,905 - test_run.py[line:165] - INFO: 用例断言成功
+2022-02-10 12:10:17,920 - test_run.py[line:68] - INFO: 正在执行查询(有授权码)用例
+2022-02-10 12:10:17,920 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User?IsEnabled=true&page=1,类型为<class 'str'>
+2022-02-10 12:10:17,920 - requestsutil.py[line:16] - INFO: 请求的method为get,类型为<class 'str'>
+2022-02-10 12:10:17,920 - requestsutil.py[line:18] - INFO: 请求的data为{},类型为<class 'dict'>
+2022-02-10 12:10:17,920 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': '${jwtoken}'},类型为<class 'dict'>
+2022-02-10 12:10:17,920 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 12:10:17,942 - test_run.py[line:72] - INFO: 用例执行成功，请求的结果为{'code': 500, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 04:10:17 GMT', 'Content-Length': '0', 'Connection': 'keep-alive'}, 'body': {'hi': '无数据'}, 'cookies': {}}
+2022-02-10 12:10:17,943 - test_run.py[line:174] - INFO: 用例断言失败
+2022-02-10 12:10:17,980 - test_run.py[line:41] - INFO: ***** 执行用例完成，完成时间为：2022-02-10 12:10:17 *****
+2022-02-10 12:11:23,767 - test_run.py[line:35] - INFO: ***** 开始执行测试用例，开始时间为：2022-02-10 12:11:23 *****
+2022-02-10 12:11:23,769 - test_run.py[line:68] - INFO: 正在执行用户名密码正确用例
+2022-02-10 12:11:23,769 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 12:11:23,769 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 12:11:23,769 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': '123'},类型为<class 'dict'>
+2022-02-10 12:11:23,769 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 12:11:23,769 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 12:11:23,786 - test_run.py[line:72] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 04:11:23 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Authorization': 'eyJhY2NvdW50IjoiYWRtaW4iLCJ0b2tlbiI6IjliMmYyNWEzODkyZDY0OTlhMWYwZjMxMWJmZTgwMjhiIn0='}, 'body': {'success': True, 'code': 200, 'msg': None, 'id': 1, 'lastName': '超管', 'workCode': 'BWF-Admin', 'departmentId': 0, 'jobTitle': '超管', 'isEnabled': True, 'level': 3, 'roleId': 1, 'loginId': 'admin', 'departmentName': None}, 'cookies': {}}
+2022-02-10 12:11:23,786 - test_run.py[line:165] - INFO: 用例断言成功
+2022-02-10 12:11:23,792 - test_run.py[line:68] - INFO: 正在执行查询(有授权码)用例
+2022-02-10 12:11:23,792 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User?IsEnabled=true&page=1,类型为<class 'str'>
+2022-02-10 12:11:23,792 - requestsutil.py[line:16] - INFO: 请求的method为get,类型为<class 'str'>
+2022-02-10 12:11:23,792 - requestsutil.py[line:18] - INFO: 请求的data为{},类型为<class 'dict'>
+2022-02-10 12:11:23,792 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': '${jwtoken}'},类型为<class 'dict'>
+2022-02-10 12:11:23,792 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 12:11:23,809 - test_run.py[line:72] - INFO: 用例执行成功，请求的结果为{'code': 500, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 04:11:23 GMT', 'Content-Length': '0', 'Connection': 'keep-alive'}, 'body': {'hi': '无数据'}, 'cookies': {}}
+2022-02-10 12:11:23,810 - test_run.py[line:174] - INFO: 用例断言失败
+2022-02-10 12:11:23,840 - test_run.py[line:41] - INFO: ***** 执行用例完成，完成时间为：2022-02-10 12:11:23 *****
+2022-02-10 12:16:43,385 - test_run.py[line:35] - INFO: ***** 开始执行测试用例，开始时间为：2022-02-10 12:16:43 *****
+2022-02-10 12:16:43,414 - test_run.py[line:68] - INFO: 正在执行查询(有授权码)用例
+2022-02-10 12:16:43,414 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User?IsEnabled=true&page=1,类型为<class 'str'>
+2022-02-10 12:16:43,414 - requestsutil.py[line:16] - INFO: 请求的method为get,类型为<class 'str'>
+2022-02-10 12:16:43,414 - requestsutil.py[line:18] - INFO: 请求的data为{},类型为<class 'dict'>
+2022-02-10 12:16:43,414 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': 'None'},类型为<class 'dict'>
+2022-02-10 12:16:43,414 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 12:16:43,452 - test_run.py[line:72] - INFO: 用例执行成功，请求的结果为{'code': 500, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 04:16:43 GMT', 'Content-Length': '0', 'Connection': 'keep-alive'}, 'body': {'hi': '无数据'}, 'cookies': {}}
+2022-02-10 12:16:43,452 - test_run.py[line:175] - INFO: 用例断言失败
+2022-02-10 12:16:43,461 - test_run.py[line:41] - INFO: ***** 执行用例完成，完成时间为：2022-02-10 12:16:43 *****
+2022-02-10 12:20:10,135 - test_run.py[line:35] - INFO: ***** 开始执行测试用例，开始时间为：2022-02-10 12:20:10 *****
+2022-02-10 12:20:10,136 - test_run.py[line:68] - INFO: 正在执行用户名密码正确用例
+2022-02-10 12:20:10,136 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 12:20:10,136 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 12:20:10,137 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': '123'},类型为<class 'dict'>
+2022-02-10 12:20:10,137 - requestsutil.py[line:20] - INFO: 请求的headers为[],类型为<class 'list'>
+2022-02-10 12:20:10,137 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 12:20:10,137 - test_run.py[line:76] - INFO: 用例执行失败，请查看日志找原因。
+2022-02-10 12:20:10,168 - test_run.py[line:68] - INFO: 正在执行查询(有授权码)用例
+2022-02-10 12:20:10,169 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User?IsEnabled=true&page=1,类型为<class 'str'>
+2022-02-10 12:20:10,169 - requestsutil.py[line:16] - INFO: 请求的method为get,类型为<class 'str'>
+2022-02-10 12:20:10,169 - requestsutil.py[line:18] - INFO: 请求的data为{},类型为<class 'dict'>
+2022-02-10 12:20:10,169 - requestsutil.py[line:20] - INFO: 请求的headers为['jwtoken'],类型为<class 'list'>
+2022-02-10 12:20:10,169 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 12:20:10,170 - test_run.py[line:76] - INFO: 用例执行失败，请查看日志找原因。
+2022-02-10 12:20:10,203 - test_run.py[line:41] - INFO: ***** 执行用例完成，完成时间为：2022-02-10 12:20:10 *****
+2022-02-10 12:24:29,515 - test_run.py[line:35] - INFO: ***** 开始执行测试用例，开始时间为：2022-02-10 12:24:29 *****
+2022-02-10 12:24:29,516 - test_run.py[line:68] - INFO: 正在执行用户名密码正确用例
+2022-02-10 12:24:29,517 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 12:24:29,517 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 12:24:29,517 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': '123'},类型为<class 'dict'>
+2022-02-10 12:24:29,517 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 12:24:29,517 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 12:24:29,551 - test_run.py[line:72] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 04:24:29 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Authorization': 'eyJhY2NvdW50IjoiYWRtaW4iLCJ0b2tlbiI6IjliMmYyNWEzODkyZDY0OTlhMWYwZjMxMWJmZTgwMjhiIn0='}, 'body': {'success': True, 'code': 200, 'msg': None, 'id': 1, 'lastName': '超管', 'workCode': 'BWF-Admin', 'departmentId': 0, 'jobTitle': '超管', 'isEnabled': True, 'level': 3, 'roleId': 1, 'loginId': 'admin', 'departmentName': None}, 'cookies': {}}
+2022-02-10 12:24:29,551 - test_run.py[line:168] - INFO: 用例断言成功
+2022-02-10 12:24:29,560 - test_run.py[line:68] - INFO: 正在执行查询(有授权码)用例
+2022-02-10 12:24:29,560 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User?IsEnabled=true&page=1,类型为<class 'str'>
+2022-02-10 12:24:29,560 - requestsutil.py[line:16] - INFO: 请求的method为get,类型为<class 'str'>
+2022-02-10 12:24:29,560 - requestsutil.py[line:18] - INFO: 请求的data为{},类型为<class 'dict'>
+2022-02-10 12:24:29,560 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': 'eyJhY2NvdW50IjoiYWRtaW4iLCJ0b2tlbiI6IjliMmYyNWEzODkyZDY0OTlhMWYwZjMxMWJmZTgwMjhiIn0='},类型为<class 'dict'>
+2022-02-10 12:24:29,560 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 12:24:29,712 - test_run.py[line:72] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 04:24:29 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}, 'body': {'results': [{'id': 2, 'lastName': '测试账号', 'workCode': 'BWF-9999', 'departmentId': 733, 'jobTitle': '首席讲师', 'isEnabled': True, 'level': 1, 'roleId': 0, 'loginId': None, 'departmentName': '北京在线教育及网站运营事业部'}], 'count': 1}, 'cookies': {}}
+2022-02-10 12:24:29,713 - test_run.py[line:168] - INFO: 用例断言成功
+2022-02-10 12:24:29,716 - test_run.py[line:41] - INFO: ***** 执行用例完成，完成时间为：2022-02-10 12:24:29 *****
+2022-02-10 12:25:48,458 - test_run.py[line:35] - INFO: ***** 开始执行测试用例，开始时间为：2022-02-10 12:25:48 *****
+2022-02-10 12:25:48,460 - test_run.py[line:68] - INFO: 正在执行密码错误用例
+2022-02-10 12:25:48,460 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 12:25:48,460 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 12:25:48,460 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': 'xxxxx'},类型为<class 'dict'>
+2022-02-10 12:25:48,460 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 12:25:48,460 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 12:25:48,478 - test_run.py[line:72] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 04:25:48 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}, 'body': {'success': False, 'code': 204, 'msg': '密码错误', 'id': 0, 'lastName': None, 'workCode': None, 'departmentId': 0, 'jobTitle': None, 'isEnabled': False, 'level': 0, 'roleId': 0, 'loginId': None, 'departmentName': None}, 'cookies': {}}
+2022-02-10 12:25:48,478 - test_run.py[line:168] - INFO: 用例断言成功
+2022-02-10 12:25:48,488 - test_run.py[line:68] - INFO: 正在执行没有密码参数用例
+2022-02-10 12:25:48,488 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 12:25:48,488 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 12:25:48,488 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin'},类型为<class 'dict'>
+2022-02-10 12:25:48,488 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 12:25:48,488 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 12:25:48,504 - test_run.py[line:72] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 04:25:48 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}, 'body': {'success': False, 'code': 204, 'msg': '密码错误', 'id': 0, 'lastName': None, 'workCode': None, 'departmentId': 0, 'jobTitle': None, 'isEnabled': False, 'level': 0, 'roleId': 0, 'loginId': None, 'departmentName': None}, 'cookies': {}}
+2022-02-10 12:25:48,504 - test_run.py[line:168] - INFO: 用例断言成功
+2022-02-10 12:25:48,515 - test_run.py[line:68] - INFO: 正在执行用户名错误用例
+2022-02-10 12:25:48,516 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 12:25:48,516 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 12:25:48,516 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin22', 'password': '123'},类型为<class 'dict'>
+2022-02-10 12:25:48,516 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 12:25:48,516 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 12:25:48,540 - test_run.py[line:72] - INFO: 用例执行成功，请求的结果为{'code': 500, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 04:25:48 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}, 'body': {'errorCode': 202, 'message': '没有找到用户'}, 'cookies': {}}
+2022-02-10 12:25:48,540 - test_run.py[line:168] - INFO: 用例断言成功
+2022-02-10 12:25:48,546 - test_run.py[line:68] - INFO: 正在执行用户名错误用例
+2022-02-10 12:25:48,546 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 12:25:48,546 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 12:25:48,546 - requestsutil.py[line:18] - INFO: 请求的data为{'password': '123'},类型为<class 'dict'>
+2022-02-10 12:25:48,546 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 12:25:48,546 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 12:25:48,576 - test_run.py[line:72] - INFO: 用例执行成功，请求的结果为{'code': 500, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 04:25:48 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}, 'body': {'errorCode': 202, 'message': '没有找到用户'}, 'cookies': {}}
+2022-02-10 12:25:48,577 - test_run.py[line:168] - INFO: 用例断言成功
+2022-02-10 12:25:48,586 - test_run.py[line:68] - INFO: 正在执行用户名密码正确用例
+2022-02-10 12:25:48,586 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User,类型为<class 'str'>
+2022-02-10 12:25:48,587 - requestsutil.py[line:16] - INFO: 请求的method为post,类型为<class 'str'>
+2022-02-10 12:25:48,587 - requestsutil.py[line:18] - INFO: 请求的data为{'username': 'admin', 'password': '123'},类型为<class 'dict'>
+2022-02-10 12:25:48,587 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/json'},类型为<class 'dict'>
+2022-02-10 12:25:48,587 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 12:25:48,622 - test_run.py[line:72] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 04:25:48 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Authorization': 'eyJhY2NvdW50IjoiYWRtaW4iLCJ0b2tlbiI6IjliMmYyNWEzODkyZDY0OTlhMWYwZjMxMWJmZTgwMjhiIn0='}, 'body': {'success': True, 'code': 200, 'msg': None, 'id': 1, 'lastName': '超管', 'workCode': 'BWF-Admin', 'departmentId': 0, 'jobTitle': '超管', 'isEnabled': True, 'level': 3, 'roleId': 1, 'loginId': 'admin', 'departmentName': None}, 'cookies': {}}
+2022-02-10 12:25:48,623 - test_run.py[line:168] - INFO: 用例断言成功
+2022-02-10 12:25:48,635 - test_run.py[line:68] - INFO: 正在执行查询(无授权码)用例
+2022-02-10 12:25:48,635 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User?IsEnabled=true&page=1,类型为<class 'str'>
+2022-02-10 12:25:48,635 - requestsutil.py[line:16] - INFO: 请求的method为get,类型为<class 'str'>
+2022-02-10 12:25:48,635 - requestsutil.py[line:18] - INFO: 请求的data为{},类型为<class 'dict'>
+2022-02-10 12:25:48,635 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/x-www-form-urlencoded'},类型为<class 'dict'>
+2022-02-10 12:25:48,635 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 12:25:48,660 - test_run.py[line:72] - INFO: 用例执行成功，请求的结果为{'code': 500, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 04:25:48 GMT', 'Content-Length': '0', 'Connection': 'keep-alive'}, 'body': {'hi': '无数据'}, 'cookies': {}}
+2022-02-10 12:25:48,660 - test_run.py[line:168] - INFO: 用例断言成功
+2022-02-10 12:25:48,669 - test_run.py[line:68] - INFO: 正在执行查询(有授权码)用例
+2022-02-10 12:25:48,669 - requestsutil.py[line:14] - INFO: 请求的url为http://127.0.0.1:6088/api/User?IsEnabled=true&page=1,类型为<class 'str'>
+2022-02-10 12:25:48,669 - requestsutil.py[line:16] - INFO: 请求的method为get,类型为<class 'str'>
+2022-02-10 12:25:48,669 - requestsutil.py[line:18] - INFO: 请求的data为{},类型为<class 'dict'>
+2022-02-10 12:25:48,669 - requestsutil.py[line:20] - INFO: 请求的headers为{'Content-Type': 'application/x-www-form-urlencoded', 'Authorization': 'eyJhY2NvdW50IjoiYWRtaW4iLCJ0b2tlbiI6IjliMmYyNWEzODkyZDY0OTlhMWYwZjMxMWJmZTgwMjhiIn0='},类型为<class 'dict'>
+2022-02-10 12:25:48,669 - requestsutil.py[line:22] - INFO: 请求的cookies为{},类型为<class 'dict'>
+2022-02-10 12:25:48,690 - test_run.py[line:72] - INFO: 用例执行成功，请求的结果为{'code': 200, 'headers': {'Server': 'nginx/1.14.0 (Ubuntu)', 'Date': 'Thu, 10 Feb 2022 04:25:48 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive'}, 'body': {'results': [{'id': 2, 'lastName': '测试账号', 'workCode': 'BWF-9999', 'departmentId': 733, 'jobTitle': '首席讲师', 'isEnabled': True, 'level': 1, 'roleId': 0, 'loginId': None, 'departmentName': '北京在线教育及网站运营事业部'}], 'count': 1}, 'cookies': {}}
+2022-02-10 12:25:48,690 - test_run.py[line:168] - INFO: 用例断言成功
+2022-02-10 12:25:48,694 - test_run.py[line:41] - INFO: ***** 执行用例完成，完成时间为：2022-02-10 12:25:48 *****
